@@ -11,7 +11,26 @@
 .container section {
   flex: 1;
   display: grid;
+  margin-top: 5rem;
+  padding: 2rem;
   grid-template-columns: 1fr 1fr;
-  gap: 6.25rem;
+  gap: 4rem;
+  /* gap: 6.25rem; */
+  justify-content: center;
+  align-items: center;
   align-content: center;
 }
+
+.container section > div:first-child {
+  width: 500px;
+}
+.container section > div:last-child {
+  height: 100%;
+  width: 500px;
+}
+
+
+
+/* .main{
+  border:1px solid red;
+} */

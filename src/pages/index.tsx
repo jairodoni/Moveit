@@ -5,6 +5,7 @@ import { CompletedChallenges } from '../components/CompletedChallenges';
 import { Countdown } from '../components/Countdown';
 import { ExperienceBar } from '../components/ExperienceBar';
 import { Profile } from '../components/Profile';
+import { CountdownProvider } from '../contexts/CountdownContext';
 
 import styles from '../styles/pages/Home.module.css'
 
@@ -12,21 +13,23 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <link rel="shortcut icon" href="favicon.png" type="image/png"/>
-        <title>Inicio | Moveit</title>
+        <title>Inicio | move.it</title>
       </Head>
+
     <ExperienceBar />
 
-    <section>
-      <div>
-        <Profile />
-        <CompletedChallenges />
-        <Countdown />
-      </div>
-      <div>
-        <ChallengeBox />
-      </div>
-    </section>
+    <CountdownProvider>
+      <section>
+        <div className={styles.main}>
+          <Profile />
+          <CompletedChallenges />
+          <Countdown />
+        </div>
+        <div className={styles.main}>
+          <ChallengeBox />
+        </div>
+      </section>
+    </CountdownProvider>
   </div>
   )
 }
