@@ -1,6 +1,6 @@
 .container {
   height: 100vh;
-  max-width: 992px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 2.5rem 2rem;
 
@@ -14,23 +14,22 @@
   margin-top: 5rem;
   padding: 2rem;
   grid-template-columns: 1fr 1fr;
-  gap: 4rem;
-  /* gap: 6.25rem; */
+  
+  gap: 6.25rem;
   justify-content: center;
   align-items: center;
   align-content: center;
 }
 
 .container section > div:first-child {
-  width: 500px;
+  height: 100%;
+  width: 450px;
 }
 .container section > div:last-child {
   height: 100%;
-  width: 500px;
+  width: 450px;
 }
 
 
 
-/* .main{
-  border:1px solid red;
-} */
+
