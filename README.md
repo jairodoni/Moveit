@@ -4,7 +4,7 @@
 
 <div align="center">
 
-![React_Badge][web_react_badge] ![GitHub][repository_license_badge]
+![GitHub][repository_license_badge] ![React_Badge][web_react_badge] ![Types][typescript] ![Next][next]
 <br>
 <p align="center">
   <img alt="moveit" src=".github/moveit.png" width="100%">
@@ -108,6 +108,10 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para
 [npm_version_badge]: https://img.shields.io/badge/npm-6.14.4-red
 
 [web_react_badge]: https://img.shields.io/badge/web-react-blue
+
+[typescript]: https://img.shields.io/badge/types-Typescript-blue
+
+[next]: https://img.shields.io/badge/ReactJS-Next.js-lightgrey
 
 [mobile_react-native_badge]: https://img.shields.io/badge/mobile-react%20native-blueviolet
 
