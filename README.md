@@ -14,7 +14,7 @@
 
 ## 💻 Projeto
 
-Um projeto desenvolvido durante o NextLevelWeek04, o projeto "Moveit" tem o intuito de utilizar a tecnica de pomodoro e incentivar as pessoas tirarem um tempo para se alongar durante o trabalho, mantendo a saude e o bens estar do usuario com exercício basicos.
+Um projeto desenvolvido durante o NextLevelWeek04, o projeto "Moveit" tem o intuito de utilizar a tecnica de pomodoro e incentivar as pessoas tirarem um tempo para se alongar durante o trabalho, mantendo a saude e o bem estar do usuario com exercício basicos.
 
 ## 🔖 Layout
 
