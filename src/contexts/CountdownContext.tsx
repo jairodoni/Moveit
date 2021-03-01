@@ -4,6 +4,7 @@ import { ChallengesContext } from "./ChallengesContext";
 interface CountdownContextData {
   minutes: number,
   seconds: number,
+  percentTime: number,
   hasFinished: boolean,
   isActive: boolean,
   startCountdown: () => void,
@@ -25,14 +26,19 @@ export function CountdownProvider({ children }: CountdownProviderProps) {
   const [ time, setTime ] = useState(25 * 60);
   const [ isActive, setIsActive ] = useState(false);
   const [ hasFinished, setHasFinished  ] = useState(false);
+  const [ percentTime, setPercentTime ] = useState(0);
+  const [ totalTime, setTotalTime ] = useState(1500);
 
   const minutes = Math.floor(time / 60);
   const seconds = time % 60;
-  
+  const percent = (totalTime * 100) / 1500;
+    
   useEffect(() => {
     if(isActive && time > 0){
       countdownTimeout = setTimeout(() => {
         setTime(time -1);
+        setTotalTime(totalTime -1);
+        setPercentTime(100 - percent);
       }, 1000)
     }else if (isActive && time === 0){
       setHasFinished(true);
@@ -49,14 +55,16 @@ export function CountdownProvider({ children }: CountdownProviderProps) {
   function resetCountdown() {
     clearTimeout(countdownTimeout);
     setIsActive(false);
-    setTime(0.05 * 60);
+    setTime(25 * 60);
     setHasFinished(false);
+    setTotalTime(1500);
   }
 
   return (
     <CountdownContext.Provider value={{
       minutes,
       seconds,
+      percentTime,
       hasFinished,
       isActive,
       startCountdown,

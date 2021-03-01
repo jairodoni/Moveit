@@ -6,17 +6,31 @@
 
 ![GitHub][repository_license_badge] ![React_Badge][web_react_badge] ![Types][typescript] ![Next][next]
 <br>
+
+<p align="center">
+ <a href="#-projeto"><strong/><h3/>Projeto</a> •
+ <a href="#-layout">Layout</a> •
+ <a href="#-tecnologias">Tecnologias</a> •
+ <a href="#-como-executar-o-projeto">Executando</a> •
+ <a href="#-referencias">Referências</a> •
+ <a href="#-author">Autor</a> 
+</p>
+
 <p align="center">
   <img alt="moveit" src=".github/moveit.png" width="100%">
 </p>
-
 </div>
 
-## 💻 Projeto
+
+---
+
+## **💻 Projeto**
 
 Um projeto desenvolvido durante o NextLevelWeek04, o projeto "Moveit" tem o intuito de utilizar a tecnica de pomodoro e incentivar as pessoas tirarem um tempo para se alongar durante o trabalho, mantendo a saude e o bem estar do usuario com exercício basicos.
 
-## 🔖 Layout
+---
+
+## **🔖 Layout**
 
 Você pode visualizar o layout do projeto no formato através [desse link](https://www.figma.com/file/t4WoHGhtu6xlSce2rnzUlz/Move.it-1.0). Lembrando que você irá precisar ter uma conta no [Figma](http://figma.com/).
 
@@ -31,23 +45,26 @@ Você pode visualizar o layout do projeto no formato através [desse link](https
   <img alt="telasWeb" src=".github/screen03.png" width="100%">
 </p>
 
-## **:computer: TECNOLOGIAS**
+---
+
+## **:computer: Tecnologias**
 
 
-#### **Website** ([React][react])
-  
+ #### **Website** ([React][react])
+ 
   - **[Typescript][typescript]**
   - **[Next.js][next]**
-  
-\* Veja o arquivo <kbd>[package.json](./package.json)</kbd>
+   
+> \* Veja o arquivo <kbd>[package.json](./package.json)</kbd>
 
-#### **Utilitários**
+ #### **Utilitários**
+ 
+  - Editor: **[Visual Studio Code][vscode]** &rarr; Extensions: **<kbd>[SQLite][vscode_sqlite_extension]</kbd>**
+ - Markdown: **[StackEdit][stackedit]**, **<kbd>[Markdown Emoji][markdown_emoji]</kbd>**
 
-- Editor: **[Visual Studio Code][vscode]** &rarr; Extensions: **<kbd>[SQLite][vscode_sqlite_extension]</kbd>**
-- Markdown: **[StackEdit][stackedit]**, **<kbd>[Markdown Emoji][markdown_emoji]</kbd>**
+---
 
-
-## **:pushpin: COMO UTILIZAR**
+##  **🚀 Como executar o projeto**
 
 ### Configurações Iniciais
 
@@ -84,13 +101,28 @@ $ yarn dev
 ```
 > Se o browser não abrir automaticamente, acesse: http://localhost:3000.
 
-## **:books: REFERÊNCIAS**
+---
+
+## **:books: Referências**
 
 - [Blog Rocketseat](https://blog.rocketseat.com.br/)
 - [ReactJS](https://reactjs.org/docs/getting-started.html) | [ReactJS pt-BR](https://pt-br.reactjs.org/docs/getting-started.html)
 - [Node](https://nodejs.org/en/)
 
-## :memo: Licença
+## **👨‍🚀 Autor**
+
+<a href="https://github.com/jairodoni">
+ <img style="border-radius: 50%;" src="https://github.com/jairodoni.png" width="100px;" alt="Bruno Henrique Saibert"/>
+ <br />
+ <sub><b>Jairo Doni Prudente Junior</b></sub></a>
+ <br />
+
+👋 Entre em contato!
+
+[![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=for-the-badge&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/jairodoni/)](https://www.linkedin.com/in/jairodoni/)
+[![Gmail Badge](https://img.shields.io/badge/-Gmail-c14438?style=for-the-badge&logo=Gmail&logoColor=white&link=mailto:jairo.doni97@gmail.com)](mailto:jairo.doni97@gmail.com)
+
+## **:memo: Licença**
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
 
@@ -103,19 +135,11 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para
 
 [repository_license_badge]: https://img.shields.io/github/license/JairoDoni/NLW-1.0
 
-[node_version_badge]: https://img.shields.io/badge/node-12.18.0-green
-
-[npm_version_badge]: https://img.shields.io/badge/npm-6.14.4-red
-
 [web_react_badge]: https://img.shields.io/badge/web-react-blue
 
 [typescript]: https://img.shields.io/badge/types-Typescript-blue
 
 [next]: https://img.shields.io/badge/ReactJS-Next.js-lightgrey
-
-[mobile_react-native_badge]: https://img.shields.io/badge/mobile-react%20native-blueviolet
-
-[server_nodejs_badge]: https://img.shields.io/badge/server-nodejs-important
 
 <!-- Techs -->
 

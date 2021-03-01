@@ -25,6 +25,8 @@ body {
 
 body, input, textarea, button{
   font: 400 1rem "Inter", sans-serif;
+  outline: 0;
+  border: none;
 }
 
 button {
@@ -46,5 +48,25 @@ a {
   html{
     font-size: 87.5%;
   }
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+  color: var(--gray-line);
+  opacity: 60%;
+}
+
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+  color: var(--gray-line);
+  opacity: 60%;
+}
+
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+  color: var(--gray-line);
+  opacity: 60%;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+  color: var(--gray-line);
+  opacity: 60%;
 }
 
