@@ -12,7 +12,7 @@
   margin-bottom: 5rem;
 }
 
-.formLogin  a, .loginContainer div > strong{
+.formLogin  a, .loginContainer form > strong{
   margin-bottom: 2rem;
 }
 
@@ -29,12 +29,12 @@
   margin-right: 1rem;
 }
 
-.formLogin > div{
+.formLogin > form{
   display: flex;
   height: 4rem;
 }
 
-.formLogin > div > input{
+.formLogin > form > input{
   background: rgb(73,83,184);
   color: var(--gray-line);
   background: linear-gradient(90deg, rgba(73,83,184,1) 11%, rgba(0,212,255,0) 100%);
@@ -43,7 +43,7 @@
   border-radius: 0.3rem;
 }
 
-.formLogin  > div > button{
+.formLogin  > form > button{
   /* border: 3px solid red; */
   
   height: 100%;
@@ -52,12 +52,12 @@
   color: var(--gray-line);
   border-radius: 0 0.3rem  0.3rem 0;
 }
-.formLogin > div > button:hover{
+.formLogin > form > button:hover{
   opacity: 0.8;
   border: none;
 }
 
-.formLogin  > div > button:active{
+.formLogin  > form > button:active{
   opacity: 100%;
   background: #4CD62B;
 }
